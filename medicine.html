@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Medicine – HSurvivalGuide</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .med-img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; border: 1px solid var(--border); }
+  </style>
 </head>
 <body>
   <header>
@@ -13,54 +16,75 @@
       <a href="index.html">Home</a>
       <a href="water.html">Water</a>
       <a href="food.html">Food</a>
+      <a href="farming.html">Farming</a>
       <a href="preservation.html">Preservation</a>
       <a href="medicine.html" class="active">Medicine</a>
       <a href="shelter.html">Shelter & Fire</a>
+      <a href="repair.html">Repair</a>
+      <a href="trades.html">Trades</a>
       <a href="navigation.html">Navigation</a>
+      <a href="maps.html">Maps</a>
+      <a href="hygiene.html">Hygiene</a>
       <a href="resources.html">Resources</a>
     </nav>
   </header>
 
   <div class="container">
     <div class="card">
-      <h2>Medicine & First Aid</h2>
-      <p>In austere conditions, focus on preventing problems and treating the most common life-threatening issues. This is not a substitute for medical training.</p>
-      <p class="warning">Serious injuries and illnesses require professional care whenever possible.</p>
+      <h2>Medicine & First Aid (Military / Austere Style)</h2>
+      <p>Prioritize life-threatening issues using military field medicine principles from U.S. Army doctrine (ATP 3-50.21, ATP 4-02.11 / TCCC concepts). This is not a substitute for training or professional care.</p>
+      <p class="warning">Serious injuries require professional medical care whenever possible. These are emergency principles only.</p>
     </div>
 
     <div class="card">
-      <h3>Immediate Priorities (MARCH)</h3>
+      <h3>MARCH-PAWS Priorities</h3>
+      <p>Treat in this order. Massive bleeding is the top priority.</p>
       <ul>
-        <li><strong>M</strong>assive hemorrhage — Direct pressure, tourniquets for limb bleeding</li>
-        <li><strong>A</strong>irway — Ensure the person can breathe</li>
-        <li><strong>R</strong>espiration — Chest injuries, breathing rate</li>
-        <li><strong>C</strong>irculation — Shock prevention, keep warm</li>
-        <li><strong>H</strong>ypothermia / Head injury — Protect from cold, monitor</li>
+        <li><strong>M</strong>assive Hemorrhage — Control life-threatening bleeding immediately. Direct pressure first. For limb bleeding that does not stop, apply a tourniquet high and tight. Note the time.</li>
+        <li><strong>A</strong>irway — Ensure the airway is open. Head-tilt/chin-lift or recovery position if no spinal concern.</li>
+        <li><strong>R</strong>espiration — Check breathing. Seal open chest wounds (occlusive dressing). Assist ventilation if needed.</li>
+        <li><strong>C</strong>irculation — Check pulse, treat for shock (keep warm, elevate legs if no fracture, monitor).</li>
+        <li><strong>H</strong>ypothermia / Head injury — Prevent heat loss. Monitor for head trauma.</li>
+        <li><strong>P</strong>ain — Manage pain if supplies allow (after life threats are controlled).</li>
+        <li><strong>A</strong>ntibiotics — Prevent infection if available and indicated.</li>
+        <li><strong>W</strong>ounds — Clean and cover once stable.</li>
+        <li><strong>S</strong>plinting — Immobilize fractures and dislocations.</li>
+      </ul>
+      <img class="med-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tourniquet.png/640px-Tourniquet.png" alt="Illustration of a tourniquet with time noted (public domain)">
+      <p style="font-size:0.85rem; color:var(--muted);">Tourniquet illustration (public domain). Apply high and tight on the limb, note the time of application.</p>
+    </div>
+
+    <div class="card">
+      <h3>Tourniquet Basics</h3>
+      <ul>
+        <li>Place 2–3 inches above the wound (or high on the limb if exact location is unclear).</li>
+        <li>Tighten until bleeding stops and distal pulse is gone.</li>
+        <li>Write the time of application on the casualty or the tourniquet itself.</li>
+        <li>Do not loosen in the field unless trained and conditions allow.</li>
+        <li>Improvised tourniquets (cloth + stick windlass) can work but commercial ones are more reliable.</li>
       </ul>
     </div>
 
     <div class="card">
-      <h3>Common Issues</h3>
+      <h3>Common Field Issues</h3>
       <ul>
-        <li><strong>Wound care</strong> — Clean thoroughly, cover, watch for infection (redness, heat, pus, fever)</li>
-        <li><strong>Dehydration & diarrhea</strong> — Oral rehydration (clean water + salt + sugar)</li>
-        <li><strong>Burns</strong> — Cool with clean water, cover, do not pop blisters</li>
-        <li><strong>Hypothermia</strong> — Remove wet clothing, insulate, warm gradually</li>
-        <li><strong>Sprains & fractures</strong> — Immobilize, elevate, ice if available</li>
+        <li><strong>Wound care</strong> — Irrigate with clean water, remove debris, cover with clean dressing. Watch for infection signs.</li>
+        <li><strong>Burns</strong> — Cool with clean water 10–20 minutes, cover with clean non-stick material. Do not break blisters.</li>
+        <li><strong>Hypothermia</strong> — Remove wet clothes, insulate from ground, warm the core gradually.</li>
+        <li><strong>Sprains/fractures</strong> — RICE (Rest, Ice, Compression, Elevation) for soft tissue. Immobilize fractures before moving.</li>
+        <li><strong>Dehydration / diarrhea</strong> — Oral rehydration solution (clean water + salt + sugar).</li>
       </ul>
     </div>
 
     <div class="card">
-      <h3>Prevention</h3>
+      <h3>Prevention & Resources</h3>
       <ul class="checklist">
-        <li>Hand hygiene and clean water</li>
-        <li>Proper wound cleaning</li>
-        <li>Adequate calories and rest</li>
-        <li>Shelter from extreme temperatures</li>
+        <li>Hand hygiene and clean water prevent most illness</li>
+        <li>Carry a basic IFAK (Individual First Aid Kit) with tourniquet, pressure bandage, chest seal if possible</li>
+        <li>Primary sources: ATP 3-50.21 Survival and ATP 4-02.11 Casualty Response (public domain Army publications)</li>
       </ul>
+      <p>See the Resources page for direct links to official manuals.</p>
     </div>
-
-    <p>Primary sources: U.S. Army first aid manuals (FM 4-25.11) and related field medical guidance.</p>
   </div>
 
   <footer>
